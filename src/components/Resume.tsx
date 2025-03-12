@@ -50,7 +50,7 @@ const Resume = () => {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
     link.href = '/cv.pdf';
-    link.download = 'CV_Zakaryae_Chrif.pdf';
+    link.download = 'cv.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

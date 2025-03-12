@@ -6,7 +6,7 @@ const SynthesisTable = () => {
   const handleDownloadTable = () => {
     const link = document.createElement('a');
     link.href = '/tableau-competences.xlsx';
-    link.download = 'Tableau_Synthese_BTS_SIO_Zakaryae_Chrif.xlsx';
+    link.download = 'tableau-competences.xlsx';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
